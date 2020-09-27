@@ -43,6 +43,7 @@ extension ListNode : CustomStringConvertible {
     }
 }
 
+//时间复杂度 O(n) , n为l1 l2 链表的最长长度
 class Solution {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
